@@ -17,8 +17,6 @@
   "customizations": {
   "codespaces": {
     "openFiles": [
-      "README.md",
-      "01-karel-the-robot/README.md",
       "01-karel-the-robot/student.py",
       "01-karel-the-robot/run_world.py"
     ]
@@ -26,9 +24,6 @@
   "vscode": {
     "settings": {
       "python.defaultInterpreterPath": "/usr/bin/python3",
-      "workbench.editorAssociations": {
-        "*.md": "vscode.markdown.preview.editor"
-      }
     },
     "extensions": ["ms-python.python"]
   }
