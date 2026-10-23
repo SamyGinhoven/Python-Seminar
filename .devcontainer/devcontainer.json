@@ -16,7 +16,7 @@
   "postStartCommand": "bash .devcontainer/launch-karel.sh",
   "customizations": {
     "codespaces": {
-      "openFiles": ["01-karel-world/student.py", "01-karel-world/README.md"]
+      "openFiles": ["01-karel-the-robot/student.py", "01-karel-the-robot/README.md"]
     },
     "vscode": {
       "settings": {
