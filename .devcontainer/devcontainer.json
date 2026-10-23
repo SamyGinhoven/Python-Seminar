@@ -1,0 +1,28 @@
+{
+  "name": "Python Seminar",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1.2.10": {}
+  },
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "Karel window",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postStartCommand": "bash .devcontainer/launch-karel.sh",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["01-karel-world/student.py", "01-karel-world/README.md"]
+    },
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python3"
+      },
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
