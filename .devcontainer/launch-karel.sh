@@ -17,7 +17,7 @@ if ! xdpyinfo -display "$DISPLAY" >/dev/null 2>&1; then
     exit 1
 fi
 
-if ! pgrep -f '[p]ython3 01-karel-world/run_world.py' >/dev/null; then
-    nohup /usr/bin/python3 01-karel-world/run_world.py \
+if ! pgrep -f '[p]ython3 01-karel-the-robot/run_world.py' >/dev/null; then
+    nohup /usr/bin/python3 01-karel-the-robot/run_world.py \
         >/tmp/python-seminar-karel.log 2>&1 </dev/null &
 fi
