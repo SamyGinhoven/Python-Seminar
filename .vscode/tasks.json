@@ -4,7 +4,7 @@
     {
       "label": "Run Karel",
       "type": "shell",
-      "command": "/usr/bin/python3 01-karel-world/run_world.py",
+      "command": "/usr/bin/python3 01-karel-the-robot/run_world.py",
       "options": {
         "cwd": "${workspaceFolder}"
       },
